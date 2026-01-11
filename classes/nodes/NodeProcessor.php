@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/nodes/NodeProcessor.php
+// classes/nodes/NodeProcessor.php
 
 /**
  * ノード処理の基底クラス

@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/ApiController.php
+// classes/ApiController.php
 
 require_once __DIR__ . '/controllers/DatabaseController.php';
 require_once __DIR__ . '/controllers/FileController.php';
@@ -13,7 +13,7 @@ class ApiController {
     private $controllers = [];
 
     public function __construct() {
-        $this->projectRoot = realpath(__DIR__ . '/../../../');
+        $this->projectRoot = realpath(__DIR__ . '/../');
         $this->loadConfig();
 
         // コントローラーを初期化

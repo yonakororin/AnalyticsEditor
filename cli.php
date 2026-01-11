@@ -1,5 +1,5 @@
 <?php
-// webroot/database/cli.php
+// cli.php
 
 // 共通クラスの読み込み
 require_once __DIR__ . '/classes/CliController.php';

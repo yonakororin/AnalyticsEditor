@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/CliController.php
+// classes/CliController.php
 
 require_once __DIR__ . '/DatabaseExecutor.php';
 require_once __DIR__ . '/Logger.php';
@@ -36,7 +36,7 @@ class CliController {
     private $processors = [];
 
     public function __construct() {
-        $this->projectRoot = realpath(__DIR__ . '/../../../');
+        $this->projectRoot = realpath(__DIR__ . '/../');
         $this->loadConfig();
         $this->initProcessors();
     }

@@ -12,7 +12,7 @@ $_GET['action'] = 'create_source';
 // If I include api.php, it runs.
 // If I run `php api.php`, I can pipe.
 // The problem before was `php -r`. 
-// If I run `php webroot/database/api.php` it SHOULD work with pipe if I change api.php to read stdin?
+// If I run `php api.php` it SHOULD work with pipe if I change api.php to read stdin?
 // php://input IS read-only stream of raw request body. In CLI it MIGHT be empty.
 // Let's modify api.php to read from php://stdin if php://input is empty and we are in CLI.
 

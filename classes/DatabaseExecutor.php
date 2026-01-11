@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/DatabaseExecutor.php
+// classes/DatabaseExecutor.php
 
 class DatabaseExecutor {
     private $config;

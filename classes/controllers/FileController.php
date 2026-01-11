@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/controllers/FileController.php
+// classes/controllers/FileController.php
 
 require_once __DIR__ . '/BaseController.php';
 

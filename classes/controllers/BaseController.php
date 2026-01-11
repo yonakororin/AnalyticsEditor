@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/controllers/BaseController.php
+// classes/controllers/BaseController.php
 
 abstract class BaseController {
     protected $dbExecutor;

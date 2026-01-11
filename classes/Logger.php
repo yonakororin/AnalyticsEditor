@@ -1,8 +1,8 @@
 <?php
-// webroot/database/classes/Logger.php
+// classes/Logger.php
 
 class Logger {
-    const LOG_PATH = '/var/log/mngtools/api_debug.log';
+    const LOG_PATH = '/var/log/AnalyticsEditor/api_debug.log';
 
     public static function log($message) {
         $timestamp = date('Y-m-d H:i:s');

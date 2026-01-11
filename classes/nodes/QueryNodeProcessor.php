@@ -1,5 +1,5 @@
 <?php
-// webroot/database/classes/nodes/QueryNodeProcessor.php
+// classes/nodes/QueryNodeProcessor.php
 
 require_once __DIR__ . '/NodeProcessor.php';
 
