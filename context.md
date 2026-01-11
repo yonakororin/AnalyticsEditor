@@ -52,6 +52,10 @@ Originally part of `mngtools/ebroot/database`, it has been extracted into a stan
 - **CLI Execution**:
   - Run with `php cli.php <graph_file.json> [options]`.
 
+### 4. Documentation Cleanup
+- `README.md` has been rewritten to remove references to features not present in this standalone version (WSL setup, shell scripts, Python/Google Sheets integration).
+
+
 ## Configuration
 The application requires a `config/config.json` file in the project root with the following structure:
 ```json

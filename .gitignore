@@ -1,0 +1,4 @@
+config/
+*.log
+saved_graphs/
+webapp_cache_*
