@@ -25,6 +25,8 @@ if (!isset($_SESSION['user'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual SQL Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../shared/theme.css">
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts for premium feel -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,6 +121,7 @@ if (!isset($_SESSION['user'])) {
     </div>
 
     <script type="module" src="script.js"></script>
+    <script src="../shared/theme.js"></script>
 </body>
 
 </html>
